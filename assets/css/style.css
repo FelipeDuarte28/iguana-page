@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    background-color: black;
+    color: #FFFFFF;
+}
+
+.nav {
+    text-align: center;
+}
+
+.nav p {
+    display: inline-block;
+    margin: 7px auto 7px auto;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.header {
+    background-image: url('../img/bg-header.jpg');
+    background-repeat: no-repeat;
+    margin: 0 auto 0 auto;
+    height: 727px;
+    width: 1280px;
+}
+
+.vida-iguana {
+    margin: 45px auto 45px auto;
+    padding: 40px;
+    height: 348px;
+    max-width: 1280px;
+}
+
+.vida-iguana img{
+    margin: auto;
+    max-width: 399px;
+    float: right;
+}
+
+.vida-iguana p{
+    display: inline-block;
+    padding: 40px 0 40px 40px;
+    max-width: 50%;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.caracteristicas {
+    background-color: #1E1A13;
+    padding: 75px;
+    text-align: center;
+}
+
+.caracteristicas h2{
+    background-color: #1E1A13;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.caracteristicas .detalles{
+    background-color: #1E1A13;
+    display: inline-block;
+    width: 300px;
+}
+
+.caracteristicas .detalles i {
+    background-color: #1E1A13;
+    height: 40px;
+}
+
+.caracteristicas .detalles p {
+    background-color: #1E1A13;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.fotos {
+    margin: 75px auto;
+    text-align: center;
+}
+
+.fotos img {
+    width: 316px;
+    height: 202px;
+    margin: 0 8px;
+    object-fit: cover;
+}
+
+.footer {
+    background-color: #1E1A13;
+    height: 102px;
+    padding: 39px;
+}
+
+.footer p{
+    background-color: #1E1A13;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+}
